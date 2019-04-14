@@ -8,6 +8,8 @@ from django.urls import reverse
 from .models import Question
 
 
+# Using Selenium Framework for "in browser" To test HTML render
+
 class QuestionModelTests(TestCase):
 
     def test_was_published_recently_with_future_question(self):
